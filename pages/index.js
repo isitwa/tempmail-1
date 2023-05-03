@@ -18,8 +18,8 @@ import {
 } from "@heroicons/react/20/solid";
 import MainSideBar from "@/components/MainSideBar";
 import Header from "@/components/Header";
-import UnreadMail from "@/components/Inbox_Components/UnreadMail";
-import EmptyMail from "@/components/Inbox_Components/EmptyMail";
+import UnreadMail from "@/components/inbox_components/UnreadMail";
+import EmptyMail from "@/components/inbox_components/EmptyMail";
 const navigation = [
   { name: "Home", href: "#", icon: HomeIcon, current: true },
   { name: "My tasks", href: "#", icon: Bars4Icon, current: false },
